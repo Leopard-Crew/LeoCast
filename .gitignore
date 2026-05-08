@@ -67,3 +67,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Xcode build products
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# macOS metadata
+.DS_Store
+
