@@ -47,3 +47,24 @@ The scripting definition is copied into:
 
 This means LeoCast exposes its AppleScript dictionary through the native
 Mac OS X Leopard application bundle mechanism.
+
+## Terminal Validation
+
+The AppleScript dictionary can be read directly from the built application bundle:
+
+```text
+sdef build/Debug/LeoCast.app
+````
+
+Validated result on Mac OS X 10.5.8 Leopard PowerPC:
+
+- command exits with status 0
+    
+- dictionary XML is emitted
+    
+- no error output
+    
+- LeoCast.sdef is loaded from the application bundle
+    
+
+The Script Editor GUI is not required for this validation step.  
