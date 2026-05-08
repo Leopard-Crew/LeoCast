@@ -1,1 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
 
+<dictionary title="LeoCast Terminology">
+    <suite name="LeoCast Suite" code="LeCa" description="Native AppleScript terminology for LeoCast.">
+        <class name="application" code="capp" description="The LeoCast application.">
+            <cocoa class="NSApplication"/>
+
+            <property name="name" code="pnam" type="text" access="r"
+                description="The name of the application."/>
+
+            <property name="version" code="vers" type="text" access="r"
+                description="The version of the application."/>
+        </class>
+    </suite>
+</dictionary>
